@@ -1,4 +1,4 @@
-const ROBUX_TO_EUR_RATE = 0.0117;
+const ROBUX_TO_EUR_RATE = 0.0033;
 
 const robuxInput = document.getElementById('Robux');
 const euroResult = document.getElementById('euro');
