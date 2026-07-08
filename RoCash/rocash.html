@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoCash!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-overlay"></div>
+
+    <main class="page">
+
+        <img src="RoCashLogo.png" class="logo" alt="RoCash logo" id="Logo">
+         <p1 class="slogan">RoCash!</p1>
+
+
+        <p class="slogan">Tes Robux transformés en cash ! </p>
+
+        <div class="convertclass">
+
+            <label for="Robux" class="field-label">Montant en Robux</label>
+            <input type="number" min="0" step="1" inputmode="decimal" placeholder="Entrez votre montant en Robux" class="Robux" id="Robux">
+
+            <div class="result" id="euro">0,00 €</div>
+
+            <p class="rate-note" id="rateNote">Taux indicatif</p>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
